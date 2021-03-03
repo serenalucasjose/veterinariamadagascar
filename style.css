@@ -310,8 +310,12 @@ margin-bottom:24px;}
 
  ************************************/
  
-.nav-shrink{background:rgba(45,160,224,1);
-padding-bottom:16px;}
+.nav-shrink{background:white;
+padding-bottom:10px;}
+
+.nav-shrink .nav.menu-nav li a {
+  color: #4AAEAF;
+}
 
 .navbar-header{z-index:2;}
  
@@ -1730,4 +1734,13 @@ height:240px;
 
 .madagascar-quienes-somos-photo img {
 
+}
+
+.logo {
+  padding-top: 5px;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 250px;
 }
