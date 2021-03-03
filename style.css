@@ -1517,6 +1517,8 @@ border-radius:50%;
 .social-pinterest{background:#FE4445;}
 .social-youtube{background:#E34040;}
 .social-skype{background:#24B4F0;}
+.social-whatsapp{background: #6FD568;}
+.social-instagram{background: #DF4547;}
 
 .get-social li a:hover{color:#ffffff;
 text-decoration:none;
@@ -1715,5 +1717,17 @@ height:240px;
 .texts h3{font-size:18px;}
 
 .img-overlay:hover a .texts p{display:none;}
+
+}
+
+.madagascar-quienes-somos-photo {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.madagascar-quienes-somos-photo img {
 
 }
