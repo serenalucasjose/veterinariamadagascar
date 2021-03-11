@@ -1744,3 +1744,9 @@ height:240px;
   width: 100%;
   max-width: 250px;
 }
+
+.vet-team-member {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
