@@ -1750,3 +1750,20 @@ height:240px;
   height: 250px;
   object-fit: cover;
 }
+
+.t-member {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.t-member.at-right {
+  justify-content: flex-end;
+}
+
+.t-member .member-img .img-responsive {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}

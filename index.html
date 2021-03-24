@@ -17,12 +17,13 @@
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700%7CDroid+Serif:400,400italic,700,700italic'
-        rel='stylesheet' type='text/css'>
+    <link 
+        href='https://fonts.googleapis.com/css?family=Ubuntu:300,400,700%7CDroid+Serif:400,400italic,700,700italic'
+        rel='stylesheet' 
+        type='text/css'>
 
     <!-- Favicons -->
     <link rel="shortcut icon" href="images/favicon.ico">
-
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css" type="text/css" media="all" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/flaticons/flaticon.css" type="text/css" media="all" />
@@ -31,21 +32,22 @@
 </head>
 
 <body data-offset="100" data-spy="scroll" data-target=".my-nav">
-
+    
+    <!-- Loader -->
     <section class="petLoading">
         <div class="spinner">
             <h5>Cargando ...</h5>
             <div class="circle-spinner"></div>
         </div>
     </section>
+    <!-- Loader End -->
 
     <header id="top">
-
+        <!-- Navbar -->
         <nav class="navbar navbar-fixed-top" role="navigation">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-
                         <div class="navbar-header">
                             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                                 data-target="#collapse-navigation">
@@ -59,69 +61,43 @@
                                     alt="Veterinaria Madagascar" />
                             </a>
                         </div>
-
                         <div class="my-nav collapse navbar-collapse" id="collapse-navigation">
                             <ul class="nav menu-nav">
                                 <li class="current_page_item"><a href="#">Home</a></li>
                                 <li><a href="nosotros.html">Nosotros</a></li>
-                                <li><a href="services.html">Services</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="services.html">Services 1</a></li>
-                                        <li><a href="services-2.html">Services 2</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="team.html">Team</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="team.html">Team 1</a></li>
-                                        <li><a href="team-2.html">Team 2</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="gallery.html">Gallery</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="gallery.html">Gallery 1</a></li>
-                                        <li><a href="gallery-2.html">Gallery 2</a></li>
-                                        <li><a href="gallery-3.html">Gallery 3</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="services.html">Servicios</a></li>
+                                <li><a href="team.html">Equipo</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
                                 <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="blog.html">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog.html">Centered Blog</a></li>
-                                        <li><a href="blog-3cols.html">3 Cols</a></li>
-                                        <li><a href="blog-2cols-sidebar.html">2 Cols w/ Sidebar</a></li>
-                                        <li><a href="blog-standard.html">Standard Blog</a></li>
-                                        <li><a href="single-blog-post.html">Single Blog Post</a></li>
-                                        <li><a href="single-blog-post-sidebar.html">Single Blog Post w/ Sidebar</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="blog.html">Blog</a></li>
                                 <li><a href="contact.html">Contact</a>
-                                    <ul class="sub-menu">
+                                    <!-- <ul class="sub-menu">
                                         <li><a href="contact.html">Contact 1</a></li>
                                         <li><a href="contact-2.html">Contact 2</a></li>
-                                    </ul>
+                                    </ul> -->
                                 </li>
-
                             </ul>
-
-                        </div><!-- .navbar-collapse -->
-
-                    </div><!-- col-md-12 -->
-                </div><!-- row -->
-            </div><!-- .container -->
-        </nav>
-
-        <div class="bkg-overlay"></div>
-
-        <div id="slides">
-
-            <div class="slides-container">
-                <img src="images/photos/home/slide-1.jpg" alt="" />
-                <img src="images/photos/home/slide-2.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
             </div>
+        </nav>
+        <!-- End Navbar -->
 
+        <!-- Home Hero -->
+        <div class="bkg-overlay"></div>
+        <div id="slides">
+            <div class="slides-container">
+                <img src="images/photos/home/hero-slider/4ta_Jornada14.jpg" alt="" />
+                <img src="images/photos/home/hero-slider/4ta_Jornada12.jpg" alt="" />
+                <img src="images/photos/home/hero-slider/4ta_Jornada20.jpg" alt="" />
+                <img src="images/photos/home/hero-slider/4ta_Jornada13.jpg" alt="" />
+                <img src="images/photos/home/hero-slider/4ta_Jornada15.jpg" alt="" />
+            </div>
         </div>
-        <!--slides-->
+        <!-- End Home Hero -->
 
+        <!-- Slides -->
         <div class="intro-text container">
             <h1>Bienvenidos a Veterinaria Madagascar</h1>
             <p>
@@ -134,18 +110,14 @@
                 </a>
             </span>
         </div>
-
     </header>
 
-    <!--schedule start-->
+    <!-- Schedule Start -->
     <section id="schedule">
-
         <div class="inner-space stack-2">
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-
                         <ul class="days-open">
                             <li class="btn-circle"><span>Lunes <br /> 9am - 8pm</span></li>
                             <li class="btn-circle"><span>Martes <br /> 9am - 8pm</span></li>
@@ -154,26 +126,19 @@
                             <li class="btn-circle"><span>Viernes <br /> 9am - 8pm</span></li>
                             <li class="btn-circle"><span>Sabado <br /> 9am - 8pm</span></li>
                         </ul>
-
-                    </div><!-- col-md-12 -->
-                </div><!-- row -->
-            </div><!-- container -->
-
-        </div> <!-- inner-space -->
-
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--schedule end-->
+    <!-- Schedule End -->
 
-    <!--about start-->
+    <!-- About Start -->
     <section id="about">
-
         <div class="row">
             <div class="col-lg-6">
-
                 <div class="about-inner">
-
                     <h2 class="section-title margin-24b">Quienes Somos</h2>
-
                     <p class="f-italic24 margin-48b">
                         Veterinaria madagascar posee una trayectoria de 11 años en la ciudad, contamos con servicio de
                         atención <strong>clínica</strong>, <strong>cirugía</strong>, <strong>ecografía</strong> y
@@ -188,18 +153,11 @@
                         Trabajamos por su bienestar, proporcionando el trato más delicado y cercano a nuestros
                         pacientes, aplicando los conocimientos y técnicas más avanzadas.
                     </p>
-
                 </div>
-                <!--inner-container-->
-
-            </div><!-- col-lg-6 -->
-
+            </div>
             <div class="col-lg-6">
-
                 <div class="row">
-
                     <div class="col-md-6 col-lg-12 no-padding">
-
                         <figure class="feature madagascar-quienes-somos-photo">
 
                             <!-- <a href="feature-1-modal.html" data-toggle="modal" data-target="#myModal">
@@ -235,144 +193,85 @@
                                 </div>
 
                             </a> -->
-
                             <img class="img-responsive" src="images/photos/home/quienes-somos-2.jpg" alt="" />
-
                         </figure>
-
-                    </div><!-- col-sm6 -->
-
-                </div><!-- row -->
-
-            </div><!-- col-lg-6 -->
-
-        </div><!-- row -->
-
-
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--about end-->
+    <!-- About End -->
 
-    <!--quote-1 start-->
+    <!-- Quote-1 Start -->
     <section id="quote-1">
-
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-
                     <div class="inner-space">
-
-                        <h2 class="light-text alignc">"I think dogs are the most amazing creatures. They give
-                            unconditional love.
-                            For me they are the role model for being alive."</h2>
-                        <p class="user-name">- Gilda Radner</p>
-
-                    </div> <!-- inner-space -->
-
-                </div><!-- col-md-12 -->
-            </div><!-- row -->
-        </div><!-- container -->
-
+                        <h2 class="light-text alignc">"La lealtad de una mascota no conoce limites"</h2>
+                        <!-- <p class="user-name">- Veterinaria Madagascar</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--quote-1 end-->
+    <!-- Quote-1 End -->
 
-    <!--services start-->
+    <!-- Services Start -->
     <section id="services">
-
         <div class="row">
             <div class="col-md-4">
-
                 <a href="service-1-modal.html" data-toggle="modal" data-target="#myModal">
-
                     <div class="service">
-
                         <i class="picons flaticon-pets3"></i>
-
                         <h5>EXAMINACIONES ANUALES</h5>
-
                         <p class="service-desc">
                             Se realizaran según edad y patologías previas.
                         </p>
-
                     </div>
-
                 </a>
-
-            </div><!-- col-md-4 -->
-
+            </div>
             <div class="col-md-4">
-
                 <a href="service-2-modal.html" data-toggle="modal" data-target="#myModal">
-
                     <div class="service">
-
                         <i class="picons flaticon-syringe18"></i>
-
                         <h5>PROGRAMA DE VACUNACIÒN</h5>
-
                         <p class="service-desc">
-                            a vacunación es obligatoria, aunque el gato
+                            La vacunación es obligatoria, aunque el gato
                             no salga de casa e incluso si el gatito es añoso, ya que su sistema inmune las necesitará.
                         </p>
-
                     </div>
-
                 </a>
-
-            </div><!-- col-md-4 -->
-
+            </div>
             <div class="col-md-4">
-
                 <a href="service-3-modal.html" data-toggle="modal" data-target="#myModal">
-
                     <div class="service">
-
                         <i class="picons flaticon-cat44"></i>
-
                         <h5>NUTRICIÒN</h5>
-
                         <p class="service-desc">
-                            Recordemos que los felinos son 100% carnívoros estrictos.
+                            Somos lo que comemos
                         </p>
-
                     </div>
-
                 </a>
-
-            </div><!-- col-md-4 -->
-
-        </div><!-- row -->
-
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-4">
-
                 <a href="service-4-modal.html" data-toggle="modal" data-target="#myModal">
-
                     <div class="service">
-
                         <i class="picons flaticon-comb12"></i>
-
                         <h5>BIENESTAR Y BELLEZA</h5>
-
                         <p class="service-desc">
                             Recomendaciones sobre baños en perros y gatos y productos a utilizar para su higiene diaria.
                         </p>
-
                     </div>
-
                 </a>
-
-            </div><!-- col-md-4 -->
-
+            </div>
             <div class="col-md-4">
-
                 <a href="service-5-modal.html" data-toggle="modal" data-target="#myModal">
-
                     <div class="service">
-
                         <i class="picons flaticon-love42"></i>
-
                         <h5>TRATAMIENTO EN URGENCIAS</h5>
-
                         <p class="service-desc">
                             En nuestra clinica contamos con medicos veterinarios los cuales van a poder realizar la
                             atención primaria en
@@ -380,104 +279,89 @@
                             caso de
                             necesitar una internacion 24 hs.
                         </p>
-
                     </div>
-
                 </a>
-
-            </div><!-- col-md-4 -->
-
+            </div>
             <div class="col-md-4">
-
                 <a href="service-6-modal.html" data-toggle="modal" data-target="#myModal">
-
                     <div class="service">
-
                         <i class="picons flaticon-dog33"></i>
-
                         <h5>COMPORTAMIENTO</h5>
-
                         <p class="service-desc">
                             Todo animal debe tener ejercicio diario, por ejemplo en un perro mediano se recomienda que
                             debe caminar 2 km
                             por día si vive en departamento
                         </p>
-
                     </div>
-
                 </a>
-
-            </div><!-- col-md-4 -->
-
-        </div><!-- row -->
-
+            </div>
+        </div>
     </section>
-    <!--services end-->
+    <!-- Services End -->
 
+    <!-- Contact -->
     <section id="footer-contact" class="bkg-repeat">
-
         <div class="inner-space">
-
             <div class="container">
-
                 <div class="row">
-
                     <div class="col-sm-4 foo-contact alignc ">
-
                         <div class="btn-circle alignc"><i class="fa fa-map-marker"></i></div>
                         <h5>Ubicacion</h5>
                         <p>Diag 80, Numero 721, La Plata, Bs. As, Argentina</p>
-
-                    </div><!-- col-sm-4 -->
-
+                    </div>
                     <div class="col-sm-4 foo-contact alignc margin-mob48t">
-
                         <div class="btn-circle alignc"><i class="fa fa-phone"></i></div>
                         <h5>Contactanos</h5>
                         <p> (221) 577 73 08 </p>
-
-                    </div><!-- col-sm-4 -->
-
+                    </div>
                     <div class="col-sm-4 foo-contact alignc margin-mob48t">
-
                         <div class="btn-circle"><i class="fa fa-paper-plane-o"></i></div>
                         <h5>Correo</h5>
                         <p>veterinariamadagascar@outlook.es</p>
-
-                    </div><!-- col-sm-4 -->
-
-                </div><!-- row -->
-            </div><!-- container -->
-
-        </div><!-- inner-space -->
-
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--footer-contact end-->
+    <!-- Contact End-->
 
+    <!-- Footer -->
     <footer>
-
         <ul class="get-social alignc">
-            <li><a class="social-facebook" href="https://www.facebook.com/veterinariamadagascar80/" target="_blank"><i
-                        class="fa fa-facebook"></i></a></li>
-            <li><a class="social-instagram" href="https://www.instagram.com/veterinariamadagascar/?hl=es-la"
-                    target="_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a class="social-whatsapp"
+            <li>
+                <a 
+                    class="social-facebook" 
+                    href="https://www.facebook.com/veterinariamadagascar80/" 
+                    target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </li>
+            <li>
+                <a 
+                    class="social-instagram" 
+                    href="https://www.instagram.com/veterinariamadagascar/?hl=es-la" 
+                    target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a 
+                    class="social-whatsapp" 
                     href="https://api.whatsapp.com/send?phone=2215777308&text=Hola,%20queria%20contactarme%20con%20ustedes.%20Tengo%20una%20consulta."
-                    target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                    target="_blank">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+            </li>
         </ul>
-
     </footer>
-
+    <!-- Footer End -->
 
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content container">
-
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-
-    </div><!-- /.modal -->
-
+            </div>
+        </div>
+    </div>
 
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
     <script type='text/javascript' src='css/bootstrap/js/bootstrap.min.js'></script>
@@ -487,8 +371,7 @@
     <script type='text/javascript' src='js/jquery.isotope.min.js'></script>
     <script type='text/javascript' src='js/prettyphoto/js/jquery.prettyPhoto.js'></script>
     <script type='text/javascript' src='js/jquery.form.min.js'></script>
-    <script type='text/javascript' src='js/contactform.js'></script>
+    <!-- <script type='text/javascript' src='js/contactform.js'></script> -->
     <script type='text/javascript' src='js/init.js'></script>
 </body>
-
 </html>
