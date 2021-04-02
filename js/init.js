@@ -59,6 +59,7 @@ $('.flexslider-testimonials').flexslider({
 					});
 
 $(".portfolio-img a[data-rel^='prettyPhoto']").prettyPhoto({
+						theme: 'light_square',
 						animation_speed: 'normal',
 						autoplay_slideshow: true,
 						slideshow: 5000

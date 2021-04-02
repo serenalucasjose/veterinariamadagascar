@@ -1767,3 +1767,7 @@ height:240px;
   height: 250px;
   object-fit: cover;
 }
+
+.pp_social {
+  display: none!important;
+}
