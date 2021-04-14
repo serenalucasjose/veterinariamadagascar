@@ -93,7 +93,7 @@ article, aside, figure, footer, header, hgroup, nav, section {position:relative;
 
 
 body{ font-size:16px;
-font-family: "Droid Serif", sans-serif;
+font-family: 'Poppins', sans-serif;
 line-height:1.5;
 -webkit-font-smoothing: antialiased;
 -webkit-text-size-adjust: 100%;
@@ -1140,7 +1140,9 @@ letter-spacing:1px;}
 	
 .pricing-content ul{list-style:none;
 margin:24px 0 32px 0;
-text-align:center;}
+text-align:center;
+box-sizing: border-box;
+padding: 0 2rem;}
 
 .pricing-content ul li{padding-bottom:16px;}
 .pricing-content ul li:last-child{padding-bottom:0px;}
@@ -1315,7 +1317,7 @@ color:#ffffff;}
 .blog-meta{list-style:none;
 margin:0;}
 
-.blog-meta li{font-family: "Ubuntu",sans-serif;
+.blog-meta li{font-family: 'Poppins', sans-serif;
 font-size:10px;
 text-transform:uppercase;
 display:inline-block;
